@@ -1756,7 +1756,7 @@ function parseCleanCSV(text){
 document.getElementById('avg-thr').addEventListener('input',function(){document.getElementById('avg-thr-val').textContent=parseFloat(this.value).toFixed(1);});
 
 // ===== AUTO-FETCH FROM GOOGLE SHEET =====
-var APPS_SCRIPT_URL = '';  // << ใส่ URL จาก Apps Script Deploy ที่นี่
+var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz_z5a074ImE_ixc5wkkg7mrHL0dO0SQzEBxdY68UTw0QUVDTfjsObxU6gNkXIUHlU/exec';  // << ใส่ URL จาก Apps Script Deploy ที่นี่
 
 function fetchSheetData() {
   if (!APPS_SCRIPT_URL) {
